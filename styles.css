@@ -1,0 +1,35 @@
+.stars {
+    background-color: white;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    animation-iteration-count: infinite;
+  }
+
+  .star-1 {
+    margin-top: 15%;
+    margin-left: 60%;
+    animation-name: twinkle-1;
+    animation-duration: 1s;
+  }
+
+  .star-2 {
+    margin-top: 25%;
+    margin-left: 25%;
+    animation-name: twinkle-2;
+    animation-duration: 1s;
+  }
+
+  @keyframes twinkle-1 {
+    20% {
+      transform: scale(0.5);
+      opacity: 0.5;
+    }
+  }
+
+  @keyframes twinkle-2 {
+    20% {
+      transform: scale(0.5);
+      opacity: 0.5;
+    }
+  }
